@@ -31,8 +31,12 @@ environment:
 dependencies:
   intl: ^0.17.0
   provider: ^6.0.3
+  flutter_dotenv: ^5.0.2
+  http: ^0.13.4 
+  shared_preferences: ^2.0.15
   flutter:
     sdk: flutter
+    
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -62,6 +66,8 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+  assets: 
+    - .env
   fonts: 
     - family: lato
       fonts: 
